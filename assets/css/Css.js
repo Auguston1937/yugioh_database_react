@@ -1,0 +1,22 @@
+import { StyleSheet } from 'react-native';
+
+const css = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    // alignItems: 'center',
+    // justifyContent: 'center',
+  },
+  input: {
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+    padding: 10,
+  },
+  image: {
+    width: '100%', 
+    height: 350
+  }
+});
+
+export { css };
